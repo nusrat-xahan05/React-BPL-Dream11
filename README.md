@@ -2,7 +2,7 @@
 
 An interactive BPL Dream11-style web app inspired by the Bangladesh Premier League (BPL), where users can create their own fantasy cricket team by selecting players from different countries. Built entirely with React, the app is a great showcase of state management, conditional rendering, and component-based architecture.
 
-🔗 **Live Demo:** [Visit the Site](https://your-netlify-link.netlify.app)
+🔗 **Live Demo:** [React BPL Dream11](https://react-bpl-dream11.netlify.app/)
 
 ---
 
