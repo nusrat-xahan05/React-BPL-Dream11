@@ -79,7 +79,7 @@ function App() {
       <ToastContainer />
       <Header coin={coin}></Header>
       <Banner handleCoin={handleCoin}></Banner>
-      <div className='max-w-[1320px] mx-auto mt-[88px] mb-[300px] relative'>
+      <div className='w-full sm:w-[88%] mx-auto mt-[88px] mb-[300px]'>
         <AvailablePlayers 
           handleActiveBtn={handleActiveBtn}
           activeBtn={activeBtn}
@@ -93,7 +93,7 @@ function App() {
       </div>
       
       <div className='relative'>
-        <div className='w-[1320px] mx-auto p-6 bg-[rgba(255,255,255,0.15)] border-2 border-[#ffffff] rounded-3xl newsLetterPos'>
+        <div className='newsLetterPos w-full sm:w-[88%] mx-auto'>
             <NewsLetter></NewsLetter>
           </div>
         <Footer></Footer>

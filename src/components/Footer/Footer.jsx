@@ -5,28 +5,30 @@ const Footer = () => {
     return (
         <div className='bg-[#06091A]'>
             {/* ------------- MAIN FOOTER SECTION ------------- */}
-            <div className='w-[1320px] mx-auto pt-60 pb-[72px]'>
+            <div className='w-full sm:w-[88%] mx-auto pt-60 pb-[72px]'>
                 {/* ------------- FOOTER LOGO ------------- */}
                 <div className='mb-16'>
                     <img className='mx-auto' src={footerLogo} alt="Footer Logo" />
                 </div>
 
                 {/* ------------- FOOTER ITEMS ------------- */}
-                <div className='flex justify-between footer_items'>
-                    <div className='max-w-[291px]'>
+                <div className='flex flex-col lg:flex-row lg:justify-between items-center lg:items-start footer_items'>
+                    <div className='lg:max-w-[291px] text-center lg:text-left mb-10 lg:mb-0'>
                         <h5>About Us</h5>
                         <p className='font-normal text-base text-[rgba(255,255,255,0.6)]'>We are a passionate team dedicated to providing the best services to our customers.</p>
                     </div>
 
-                    <div className='w-[310px]'>
+                    <div className='lg:w-[310px] text-center lg:text-left mb-10 lg:mb-0'>
                         <h5>Quick Links</h5>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <div className='flex flex-row lg:flex-col'>
+                            <li className='mx-5 lg:mx-0'><a href="#">Home</a></li>
+                            <li className='mx-5 lg:mx-0'><a href="#">Services</a></li>
+                            <li className='mx-5 lg:mx-0'><a href="#">About</a></li>
+                            <li className='mx-5 lg:mx-0'><a href="#">Contact</a></li>
+                        </div>
                     </div>
 
-                    <div>
+                    <div className='text-center lg:text-left'>
                         <h5>Subscribe</h5>
                         <p className='font-normal text-base text-[rgba(255,255,255,0.6)]'>Subscribe to our newsletter for the latest updates.</p>
                         <div className='mt-[21px] flex'>

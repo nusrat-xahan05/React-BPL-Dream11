@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = ({handleCoin}) => {
     return (
-        <div className='max-w-[1320px] mx-auto'>
+        <div className='w-full sm:w-[88%] mx-auto'>
             <div className='banner_img text-center'>
                 <img className='mx-auto' src={banner_img2} alt="Banner Image" />
                 <h1 
