@@ -1,0 +1,20 @@
+.playerBtn{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(19, 19, 19, 0.9);
+    padding: 9px 16px;
+    border: 2px solid rgba(19, 19, 19, 0.1);
+    cursor: pointer;
+
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.playerCard:hover .playerBtn{
+    background-color: #E7FE29;
+    border: 2px solid #E7FE29;
+}
+

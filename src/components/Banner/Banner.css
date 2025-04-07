@@ -1,0 +1,13 @@
+.banner_img{
+    background-color: black;
+    background-image: url('../../assets/bg-shadow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 0px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}

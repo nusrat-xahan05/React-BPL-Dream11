@@ -1,0 +1,19 @@
+.btn{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: rgba(19, 19, 19, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.toogle_btn{
+    font-weight: 700;
+    background-color: #E7FE29;
+    color: #131313;
+}
+
+
+
+
+
